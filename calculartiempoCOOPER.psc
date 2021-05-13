@@ -2,16 +2,23 @@ Algoritmo calcularTiempoCooper
 	
 	Definir ANOS_TIERRA Como Entero;
 	ANOS_TIERRA = 7;
-	definir horasGargantua Como Entero;
-	horasGargantua = 1;
-	Definir equivalenteTiempo Como Entero;
-	equivalenteTiempo = 0;
 	
-	Escribir  "Indicar horas transcurridas en Gargantúa:";
-	leer horasGargantua;
-	Escribir "Años transcurridos en la Tierra:";
-	equivalenteTiempo = ANOS_TIERRA * horasGargantua;
-	Escribir equivalenteTiempo;
+	definir horas_Gargantua Como Entero;
+	horas_Gargantua = 1;
+	
+	Definir equivalente_Tiempo Como Entero;
+	equivalente_Tiempo = 0;
+	
+	
+	
+	Escribir  "Indicar horas transcurridas en GargantÃºa:";
+	leer horas_Gargantua;
+	
+	Escribir "AÃ±os transcurridos en la Tierra:";
+	
+	equivalente_Tiempo = ANOS_TIERRA * horas_Gargantua
+	;
+	Escribir equivalente_Tiempo;
 	
 	
 FinAlgoritmo
